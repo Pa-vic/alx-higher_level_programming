@@ -1,0 +1,28 @@
+'''
+import the module
+>>> add_integer = __import__('0-add_integer').add_integer
+
+>>> add_integer(4, 4)
+8
+>>> add_integer(2.0, 4)
+6
+>>> add_integer(4, 1.0)
+5
+>>> add_integer('a', 2)
+TracebackError: most recent call(last):
+	...
+TypeError: a must be an integer
+>>> add_integer(2, 'b')
+TracebackError: most recent call(last):
+	...
+TypeError: b must be an integer
+>>> add_integer()
+TracebackError: most recent call(last):
+	...
+TypeError: add_integer() misssing 2 required positional arguments: 'a' and 'b'
+>>> add_integer(2, )
+TracebackError: most recent call(last):
+	...
+TypeError: add_integer() misssing 1 required positional argument: 'b'
+
+"""
