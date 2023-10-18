@@ -29,7 +29,7 @@ def add_integer(a, b=98):
     a = int(a)
     b = int(b)
     return (a + b)
-=======
+
 """ This a function that adds to  two integers """
 
 
@@ -43,4 +43,3 @@ def add_integer(a, b=98):
 	if type(b) == float:
 		b = int(b)
 	return (a + b)
->>>>>>> 3806f8709cb8bfa1ea00e143a8f81e444e82abd5
