@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 """
 
 This module is composed by a function that adds two numbers
@@ -28,3 +29,18 @@ def add_integer(a, b=98):
     a = int(a)
     b = int(b)
     return (a + b)
+=======
+""" This a function that adds to  two integers """
+
+
+def add_integer(a, b=98):
+	if not isinstance(a,(int, float)):
+		raise TypeError("a must be an integer")
+	if not isinstance(b,(int, float)):
+		raise TypeError("b must be an integer")
+	if type(a) == float:
+		a = int(a)
+	if type(b) == float:
+		b = int(b)
+	return (a + b)
+>>>>>>> 3806f8709cb8bfa1ea00e143a8f81e444e82abd5
