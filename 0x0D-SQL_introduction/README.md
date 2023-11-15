@@ -1,4 +1,4 @@
-# 0x00. AirBnB clone - The console
+# 0x0D. SQL - Introduction
 
 This task was done by Ndudim Victor:
 
