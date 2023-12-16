@@ -1,10 +1,10 @@
 #!/usr/bin/node
-let n = 1;
-if (process.argv[2] === 1) {
-  console.log('1');
-} else {
-  for (let i = parseInt(process.argv[2]); i > 0; i--) {
-    n = n * i;
+function factorial (n) {
+  if (n === 0 || isNaN(n)) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
   }
-  console.log(n);
 }
+const input = parseInt(process.argv[2]);
+console.log(factorial(input));
