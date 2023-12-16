@@ -1,7 +1,11 @@
 #!/usr/bin/node
-for (let i = 0; i < process.argv[2]; i++) {
+if (isNaN(process.argv[2])) {
+  console.log('Missing size');
+} else {
   for (let i = 0; i < process.argv[2]; i++) {
-    process.stdout.write('X');
+    for (let i = 0; i < process.argv[2]; i++) {
+      process.stdout.write('X');
+    }
+    console.log();
   }
-  console.log();
 }
