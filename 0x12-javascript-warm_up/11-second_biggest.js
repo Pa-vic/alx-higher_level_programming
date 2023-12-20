@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 let number;
-if (process.argv.length === 2) {
+if (process.argv.length <= 3) {
   console.log('0');
 } else if (process.argv.length > 2) {
   number = process.argv[2];
