@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio>
 
 const char PLAYER_1 = 'X';
 const char PLAYER_2 = 'O';
